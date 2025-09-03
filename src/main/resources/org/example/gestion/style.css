@@ -1,0 +1,35 @@
+.parent{
+-fx-background-color: #F2F7FF;
+-fx-background-radius: 50px;
+}
+.sectionL{
+-fx-background-color: #fff;
+-fx-background-radius:5px;
+
+}
+
+.barh{
+-fx-background-color: #fff;
+-fx-background-radius:32px;
+}
+.nav{
+-fx-background-color: #fff;
+-fx-background-radius:32px;
+}
+
+.pane{
+-fx-background-color: #C1DCE8;
+-fx-background-radius:32px;
+}
+.lateral{
+-fx-background-color: #EBEBEB;
+-fx-background-radius: 32px;
+}
+.recherche{
+-fx-background-color: #fff;
+}
+.boutton{
+-fx-background-color: #C1DCE8;
+-fx-background-radius: 40px;
+
+}
