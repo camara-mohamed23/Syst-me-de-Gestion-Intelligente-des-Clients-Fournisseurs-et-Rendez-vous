@@ -28,4 +28,12 @@ Ce projet peut être utilisé par :
 * Des services commerciaux souhaitant optimiser la gestion de leurs ventes.
 * Des équipes administratives pour gagner du temps et réduire les erreurs humaines.
 
+![Uploading Capture d’écran 2025-09-07 à 23.08.42.png…]()
+![Uploading Capture d’écran 2025-09-07 à 23.08.58.png…]()
+![Uploading Capture d’écran 2025-09-07 à 23.09.44.png…]()
+![Uploading Capture d’écran 2025-09-07 à 23.09.57.png…]()
+![Uploading Capture d’écran 2025-09-07 à 23.10.06.png…]()
+![Uploading Capture d’écran 2025-09-07 à 23.10.18.png…]()![Uploading Capture d’écran 2025-09-07 à 23.10.25.png…]()
 
+![Uploading Capture d’écran 2025-09-07 à 23.10.31.png…]()
+![Uploading Capture d’écran 2025-09-07 à 23.10.39.png…]()
