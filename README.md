@@ -28,12 +28,13 @@ Ce projet peut être utilisé par :
 * Des services commerciaux souhaitant optimiser la gestion de leurs ventes.
 * Des équipes administratives pour gagner du temps et réduire les erreurs humaines.
 
-![Uploading Capture d’écran 2025-09-07 à 23.08.42.png…]()
-![Uploading Capture d’écran 2025-09-07 à 23.08.58.png…]()
-![Uploading Capture d’écran 2025-09-07 à 23.09.44.png…]()
-![Uploading Capture d’écran 2025-09-07 à 23.09.57.png…]()
-![Uploading Capture d’écran 2025-09-07 à 23.10.06.png…]()
-![Uploading Capture d’écran 2025-09-07 à 23.10.18.png…]()![Uploading Capture d’écran 2025-09-07 à 23.10.25.png…]()
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 08 42" src="https://github.com/user-attachments/assets/0b47ddac-76dd-46a2-8b10-095a0580ff7d" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 08 58" src="https://github.com/user-attachments/assets/2ff4b0c1-5423-4534-92c8-44fbefad74c1" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 09 44" src="https://github.com/user-attachments/assets/9ab4954f-6bb9-40c7-880f-2ea23136fe89" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 09 57" src="https://github.com/user-attachments/assets/9806a48e-c4d5-4a17-ac07-063bb29ae8ef" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 10 06" src="https://github.com/user-attachments/assets/d7b8362c-c9ae-4152-8d79-65ff18344c8d" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 10 18" src="https://github.com/user-attachments/assets/3836d7ec-0cd2-4a4d-bf17-ac8665216e88" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 10 25" src="https://github.com/user-attachments/assets/153ecabe-9b08-47a9-83f1-8a2b3568fe4e" />
 
-![Uploading Capture d’écran 2025-09-07 à 23.10.31.png…]()
-![Uploading Capture d’écran 2025-09-07 à 23.10.39.png…]()
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 10 39" src="https://github.com/user-attachments/assets/faa6adb8-7d09-4cc7-a3a0-d862c62ddffa" />
+
