@@ -1,6 +1,6 @@
+En cours dév
 
 
-Aperçu
 Ce projet est une application desktop moderne développée avec Java (JavaFX) et une base de données MySQL, destinée à la gestion complète des clients, fournisseurs et rendez-vous (RDV). L’objectif principal est de centraliser, automatiser et fiabiliser les opérations quotidiennes d’une entreprise (suivi des ventes, gestion des stocks, planification des rendez-vous) tout en offrant une interface intuitive et des fonctionnalités analytiques avancées.
 
  Fonctionnalités principales
