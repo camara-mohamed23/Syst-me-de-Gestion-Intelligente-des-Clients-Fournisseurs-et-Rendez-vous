@@ -1,5 +1,3 @@
-En cours dév
-
 
 Ce projet est une application desktop moderne développée avec Java (JavaFX) et une base de données MySQL, destinée à la gestion complète des clients, fournisseurs et rendez-vous (RDV). L’objectif principal est de centraliser, automatiser et fiabiliser les opérations quotidiennes d’une entreprise (suivi des ventes, gestion des stocks, planification des rendez-vous) tout en offrant une interface intuitive et des fonctionnalités analytiques avancées.
 
@@ -26,15 +24,15 @@ Ce projet est une application desktop moderne développée avec Java (JavaFX) et
 Ce projet peut être utilisé par :
 * Des petites et moyennes entreprises pour digitaliser leurs opérations.
 * Des services commerciaux souhaitant optimiser la gestion de leurs ventes.
-* Des équipes administratives pour gagner du temps et réduire les erreurs humaines.
+* Des équipes administratives pour gagner du temps et réduire  les erreurs humaines.
+*<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 12 19" src="https://github.com/user-attachments/assets/7a7572e5-95c6-4ee8-8e8b-1296bdf7d181" />
+  <img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 14 24" src="https://github.com/user-attachments/assets/23915a1c-8f3e-4f92-9da4-76d1d550bb49" />
 
-<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 08 42" src="https://github.com/user-attachments/assets/0b47ddac-76dd-46a2-8b10-095a0580ff7d" />
-<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 08 58" src="https://github.com/user-attachments/assets/2ff4b0c1-5423-4534-92c8-44fbefad74c1" />
-<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 09 44" src="https://github.com/user-attachments/assets/9ab4954f-6bb9-40c7-880f-2ea23136fe89" />
-<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 09 57" src="https://github.com/user-attachments/assets/9806a48e-c4d5-4a17-ac07-063bb29ae8ef" />
-<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 10 06" src="https://github.com/user-attachments/assets/d7b8362c-c9ae-4152-8d79-65ff18344c8d" />
-<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 10 18" src="https://github.com/user-attachments/assets/3836d7ec-0cd2-4a4d-bf17-ac8665216e88" />
-<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 10 25" src="https://github.com/user-attachments/assets/153ecabe-9b08-47a9-83f1-8a2b3568fe4e" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 14 47" src="https://github.com/user-attachments/assets/a6ca477e-da2d-4d71-ba46-a65886d12e59" />
 
-<img width="1792" height="1120" alt="Capture d’écran 2025-09-07 à 23 10 39" src="https://github.com/user-attachments/assets/faa6adb8-7d09-4cc7-a3a0-d862c62ddffa" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 11 51" src="https://github.com/user-attachments/assets/8536f38d-0e5b-4b47-8a72-3751be736559" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 15 53" src="https://github.com/user-attachments/assets/12e8cabd-360e-4df1-b14b-1702cfd84e5f" />
 
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 15 22" src="https://github.com/user-attachments/assets/20d1e54d-0b18-49e4-ae91-af45d61041d2" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 15 17" src="https://github.com/user-attachments/assets/0d71865e-743d-49e0-9457-3c4a53a871c1" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 14 53" src="https://github.com/user-attachments/assets/760d7a1c-8794-4b90-b6d6-d509d43b22dc" />
