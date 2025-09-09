@@ -32,6 +32,9 @@ Ce projet peut être utilisé par :
 
 <img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 11 51" src="https://github.com/user-attachments/assets/8536f38d-0e5b-4b47-8a72-3751be736559" />
 <img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 15 53" src="https://github.com/user-attachments/assets/12e8cabd-360e-4df1-b14b-1702cfd84e5f" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 15 22" src="https://github.com/user-attachments/assets/c63f18a3-b480-4223-a609-eb395b34491b" />
+<img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 14 53" src="https://github.com![Uploading Capture d’écran 2025-09-09 à 21.15.53.png…]()
+/user-attachments/assets/6170a772-4952-4563-a60a-674b399d79c8" />
 
 <img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 15 22" src="https://github.com/user-attachments/assets/20d1e54d-0b18-49e4-ae91-af45d61041d2" />
 <img width="1792" height="1120" alt="Capture d’écran 2025-09-09 à 21 15 17" src="https://github.com/user-attachments/assets/0d71865e-743d-49e0-9457-3c4a53a871c1" />
