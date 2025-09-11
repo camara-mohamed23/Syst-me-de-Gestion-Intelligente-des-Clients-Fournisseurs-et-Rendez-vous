@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1003.0" prefWidth="1486.0" styleClass="parent" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gestion.fournisseur.FournisseurController">
+   <top>
+      <AnchorPane prefHeight="257.0" prefWidth="1434.0" stylesheets="@../style.css" BorderPane.alignment="CENTER">
+         <styleClass>
+            <String fx:value="parent" />
+            <String fx:value="nav" />
+         </styleClass>
+         <BorderPane.margin>
+            <Insets right="60.0" />
+         </BorderPane.margin>
+         <children>
+            <AnchorPane layoutX="303.0" layoutY="141.0" prefHeight="59.0" prefWidth="195.0" styleClass="pane">
+               <children>
+                  <Circle layoutX="169.0" layoutY="29.0" radius="27.0" smooth="false" stroke="BLACK" strokeType="INSIDE" />
+                  <ImageView fitHeight="47.0" fitWidth="41.0" layoutX="148.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/med_20250724143650_3-stocks-flying-under-the-sp-500-radar.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="quantité" layoutX="51.0" layoutY="16.0" prefHeight="27.0" prefWidth="76.0">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <AnchorPane layoutX="1180.0" layoutY="139.0" prefHeight="55.0" prefWidth="201.0" styleClass="pane">
+               <children>
+                  <Circle layoutX="174.0" layoutY="30.0" radius="27.0" stroke="WHITE" strokeType="INSIDE" />
+                  <ImageView fitHeight="47.0" fitWidth="41.0" layoutX="153.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/chart-pattern.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="total" layoutX="53.0" layoutY="16.0" prefHeight="27.0" prefWidth="74.0">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <Text layoutX="271.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashbaord">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Text>
+            <Circle fill="#dadada" layoutX="1380.0" layoutY="42.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text layoutX="319.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gros quantité de livraision">
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="1197.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="camara mohamed">
+               <font>
+                  <Font name="Apple SD Gothic Neo Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="812.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total produit par quantité">
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="1206.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Somme total de prix">
+               <font>
+                  <Font name="Arial Bold" size="13.0" />
+               </font>
+            </Text>
+            <Circle fill="DODGERBLUE" layoutX="-17.0" layoutY="129.0" radius="21.0" scaleY="0.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="80.0" layoutY="14.0" text="Gadior">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="75.0" layoutY="48.0" text="Techno">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Separator layoutX="265.0" layoutY="22.0" orientation="VERTICAL" prefHeight="200.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="44.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../Users/camaramohamed/Downloads/ecommerce.jpg" />
+               </image>
+            </ImageView>
+            <BarChart layoutX="538.0" layoutY="48.0" prefHeight="248.0" prefWidth="618.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+            <ImageView fitHeight="50.0" fitWidth="62.0" layoutX="1358.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/WhatsApp%20Image%202025-09-02%20at%2018.58.05.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane maxHeight="-Infinity" prefHeight="600.0" prefWidth="173.0" styleClass="lateral" stylesheets="@../style.css" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="20.0" />
+         </BorderPane.margin>
+         <children>
+            <Button layoutX="12.0" layoutY="96.0" mnemonicParsing="false" onAction="#accueil" prefHeight="46.0" prefWidth="148.0" styleClass="boutton" stylesheets="@../style.css" text="Accueil" textFill="#1e1d1d">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button defaultButton="true" layoutX="13.0" layoutY="170.0" mnemonicParsing="false" onAction="#CLIENT" prefHeight="46.0" prefWidth="148.0" stylesheets="@../style.css" text="Client" textFill="#252323">
+               <styleClass>
+                  <String fx:value="lateral" />
+                  <String fx:value="boutton" />
+               </styleClass>
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button defaultButton="true" layoutX="13.0" layoutY="247.0" mnemonicParsing="false" onAction="#Fournisseur" prefHeight="46.0" prefWidth="148.0" styleClass="boutton" stylesheets="@../style.css" text="Fournisseur" textFill="#252323">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button defaultButton="true" layoutX="13.0" layoutY="321.0" mnemonicParsing="false" onAction="#RDV" prefHeight="46.0" prefWidth="148.0" styleClass="boutton" stylesheets="@../style.css" text="RDV" textFill="#252323">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button defaultButton="true" layoutX="13.0" layoutY="529.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="148.0" styleClass="boutton" stylesheets="@../style.css" text="Déconnection">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </left>
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="663.0" prefWidth="1183.0" styleClass="nav" stylesheets="@../style.css" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="" layoutX="763.0" layoutY="12.0" prefHeight="42.0" prefWidth="365.0" style="-fx-background-radius: 20px; -fx-border-color: #C1DCE8;">
+               <children>
+                  <TextField fx:id="txtRecherche" prefHeight="38.0" prefWidth="326.0" promptText="Recherche" styleClass="recherche" stylesheets="@../style.css" />
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../../../../../Users/camaramohamed/Downloads/107122.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Text layoutX="26.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste de Fournisseur">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="978.0" layoutY="77.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="46.0" prefWidth="191.0" styleClass="boutton" stylesheets="@../style.css" text="Ajouter" textFill="#1e1d1d">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <TableView fx:id="tableFournisseurs" layoutX="26.0" layoutY="148.0" prefHeight="426.0" prefWidth="1143.0">
+              <columns>
+                <TableColumn fx:id="colId" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="colNom" prefWidth="117.0" text="NOM" />
+                  <TableColumn fx:id="colPrenom" minWidth="7.0" prefWidth="108.0" text="PRENOM" />
+                  <TableColumn fx:id="colMotif" minWidth="0.0" prefWidth="134.0" text="TÉLEPHONE" />
+                  <TableColumn fx:id="colEmail" prefWidth="239.0" text="EMAIL" />
+                  <TableColumn fx:id="colProduit" prefWidth="128.0" text="PRODUIT" />
+                  <TableColumn fx:id="colQuantite" prefWidth="96.0" text="Quantité" />
+                  <TableColumn fx:id="colDate" prefWidth="130.0" text="Date d livraison" />
+                  <TableColumn fx:id="colPrix" prefWidth="115.0" text="Prix" />
+              </columns>
+            </TableView>
+            <Button fx:id="modifier" layoutX="423.0" layoutY="592.0" mnemonicParsing="false" onAction="#modifier" prefHeight="46.0" prefWidth="149.0" styleClass="boutton" stylesheets="@../style.css" text="Modifier" textFill="#1e1d1d">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnSupprimer" layoutX="614.0" layoutY="592.0" mnemonicParsing="false" onAction="#supprimer" prefHeight="46.0" prefWidth="149.0" styleClass="boutton" stylesheets="@../style.css" text="Supprimer" textFill="#1e1d1d">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

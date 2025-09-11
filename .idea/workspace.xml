@@ -4,35 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ad65991-9932-4275-b18e-cd2a4f90dfdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Ajouteclient.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Ajoutefournisseur.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Ajouterdv.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Client.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Fournisseur.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Rdv.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/creerlogin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/index.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/style.css" afterDir="false" />
+    <list default="true" id="0ad65991-9932-4275-b18e-cd2a4f90dfdb" name="Changes" comment="ajoueter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Client/AddClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Client/Controlleur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Client/DAOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Client/EditClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Client/model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/DB/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Login/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Login/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Login/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Login/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Login/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/RDV/AddRdvController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/RDV/Controlleur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/RDV/DAORdv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/RDV/EditRdvController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/RDV/model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/fournisseur/AddFournisseurController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/fournisseur/DAOFournisseur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/fournisseur/EditFournisseurController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/fournisseur/FournisseurController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/fournisseur/ModelFournisseur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/Ajouterdv.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/Creerlogin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/EditRDV.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/RDV.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestion/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gestion/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gestion/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Ajouteclient.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/Ajouteclient.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Ajoutefournisseur.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/EditFournisseur.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Ajouterdv.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/AddFournisseur.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/Client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Fournisseur.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/Fournisseur.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/Rdv.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/EditClient.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/creerlogin.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/index.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/views/Index.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/gestion/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/gestion/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,8 +89,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/MOUHAMED CAMARA/Gestion/src/main/resources/org/example/gestion&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/MOUHAMED CAMARA/Gestion/src/main/resources/org/example/gestion/views&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -72,7 +99,22 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/org/example/gestion/views" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/gestion/RDV" />
       <recent name="$PROJECT_DIR$/src/main/resources/org/example/gestion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/org/example/gestion/views" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.gestion" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.gestion" />
+      <recent name="org.example.gestion.Client" />
+      <recent name="org.example.gestion.RDV" />
+      <recent name="org.example.gestion.fournisseur" />
+      <recent name="org.example.gestion.Login" />
     </key>
   </component>
   <component name="RunManager">
@@ -81,7 +123,7 @@
       <module name="Gestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.gestion.*" />
+          <option name="PATTERN" value="org.example.gestion.Login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,17 +145,19 @@
       <option name="presentableId" value="Default" />
       <updated>1756759975805</updated>
     </task>
+    <task id="LOCAL-00001" summary="ajoueter">
+      <option name="closed" value="true" />
+      <created>1756911218779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756911218779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/gestion/HelloApplication.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ajoueter" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajoueter" />
   </component>
 </project>

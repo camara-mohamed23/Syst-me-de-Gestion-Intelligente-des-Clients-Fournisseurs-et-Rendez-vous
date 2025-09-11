@@ -4,7 +4,7 @@
 }
 .sectionL{
 -fx-background-color: #fff;
--fx-background-radius:5px;
+-fx-background-radius:45px;
 
 }
 
@@ -16,7 +16,6 @@
 -fx-background-color: #fff;
 -fx-background-radius:32px;
 }
-
 .pane{
 -fx-background-color: #C1DCE8;
 -fx-background-radius:32px;
@@ -28,8 +27,36 @@
 .recherche{
 -fx-background-color: #fff;
 }
-.boutton{
--fx-background-color: #C1DCE8;
--fx-background-radius: 40px;
+.boutton {
+    -fx-background-color: #C1DCE8;   /* couleur de fond */
+    -fx-background-radius: 40px;     /* coins arrondis (effet capsule) */
+    -fx-text-fill: #0f172a;          /* couleur du texte */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 18;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-border-radius: 40px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0.2, 0, 2);
+}
 
+/* Survol */
+.boutton:hover {
+    -fx-background-color: #a8cfe0;
+}
+
+/* Clic pressé */
+.boutton:pressed {
+    -fx-background-color: #8bbdd1;
+    -fx-translate-y: 1; /* petit effet enfoncé */
+}
+
+/* Focus clavier */
+.boutton:focused {
+    -fx-effect: dropshadow(gaussian, rgba(30,100,150,0.5), 12, 0.3, 0, 0);
+}
+
+.form{
+-fx-background-radius: 20px;
+-fx-border-color:#C1DCE8;
 }
